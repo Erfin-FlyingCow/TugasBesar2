@@ -1,0 +1,18 @@
+.box {
+    display: flex;
+      flex-wrap: wrap;
+    margin-top: 70px;
+    background-color: #df2323;
+    border-radius: 10px;
+    box-shadow: 0 5px 8px rgba(0, 0, 0, .1);
+    padding: 10px;
+    flex: 1;
+    margin-right: 5px;
+    margin-left: 50px;
+    text-align: center;
+  }
+
+  .container {
+    display: flex;
+    flex-wrap: wrap;
+  }
