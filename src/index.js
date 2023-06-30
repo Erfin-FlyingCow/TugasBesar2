@@ -3,6 +3,7 @@ import ReactDOM from 'react-dom';
 import './index.css';
 import Test from './Component/Test';
 import Navbar from './Component/Navbar';
+import Footer from './Component/Footer';
 import reportWebVitals from './reportWebVitals';
 
 ReactDOM.render(
@@ -17,6 +18,14 @@ ReactDOM.render(
     <Navbar />
   </React.StrictMode>,
   document.getElementById('Navbar1')
+);
+
+
+ReactDOM.render(
+  <React.StrictMode>
+    <Footer />
+  </React.StrictMode>,
+  document.getElementById('Footer')
 );
 
 reportWebVitals();
