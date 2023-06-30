@@ -4,7 +4,7 @@ function Navbar() {
   return (
     <div className='relative'>
     <div className='bg-zinc-400'>
-      <nav className="flex sm:justify-center space-x-8git">
+      <nav className="flex sm:justify-center space-x-10">
       <img src='http://surl.li/ipnrz' alt='logo' className='h-10'></img>
         {[
           ['Home', '/dashboard'],
