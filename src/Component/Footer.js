@@ -8,9 +8,27 @@ function Footer() {
           <div>
             <div className="text-xs font-medium">Sosmed Kami</div>
             <div className="flex">
-              <div className="w-4 h-4 bg-red-500 rounded-full mr-2"></div>
-              <div className="w-4 h-4 bg-red-500 rounded-full mr-2"></div>
-              <div className="w-4 h-4 bg-red-500 rounded-full mr-2"></div>
+              <a href="https://www.facebook.com/tamansafaribogor" target='blank' className="mr-4">
+                <img
+                  src="https://cdn.discordapp.com/attachments/1096614485231423568/1124640813067022367/fb_logo.png"
+                  alt="Facebook"
+                  className="h-6 w-6 text-gray-600 hover:text-gray-800"
+                />
+              </a>
+              <a href="https://www.instagram.com/taman_safari/" target='blank' className="mr-4">
+                <img
+                  src="https://cdn.discordapp.com/attachments/1096614485231423568/1124642719579504650/ig_logo.png"
+                  alt="Instagram"
+                  className="h-6 w-6 text-gray-600 hover:text-gray-800"
+                />
+              </a>
+              <a href="https://twitter.com/TSI_Bogor" target='blank' className="mr-4">
+                <img
+                  src="https://cdn.discordapp.com/attachments/1096614485231423568/1124644107432767488/logo_twt.png"
+                  alt="Twitter"
+                  className="h-6 w-6 text-gray-600 hover:text-gray-800"
+                />
+              </a>
             </div>
           </div>
           <div>
